@@ -22,3 +22,11 @@ precios = df.sort_values('Price')['Price']
 # precios.plot()  //  si lo subo asi me va a graficar por indice y se ve desordenado
 precios.plot(use_index=False)  # asi anulo que vaya segun el orden de la tabal original
 
+
+
+plt.title('Numero de habitaciones contra precio')  #plt es un objeto con el que puedo definir cono quiero mi grafica
+plt.scatter(df['Avg. Area Number of Rooms'][0:50], df['Price'][0:50])
+plt.show()
+
+
+
