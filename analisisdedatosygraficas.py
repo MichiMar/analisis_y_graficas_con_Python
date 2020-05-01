@@ -30,3 +30,5 @@ plt.show()
 
 
 
+sns.pairplot(df)  # Ahora puedo ver todas las graficas de las columnas
+
