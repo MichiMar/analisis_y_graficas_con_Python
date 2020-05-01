@@ -32,3 +32,7 @@ plt.show()
 
 sns.pairplot(df)  # Ahora puedo ver todas las graficas de las columnas
 
+
+
+# df.corr() #para sacar la correlacion, pandas
+sns.heatmap(df.corr()) #  mapa de calor de la correlacion
